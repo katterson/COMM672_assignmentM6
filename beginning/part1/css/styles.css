@@ -25,3 +25,40 @@ nav ul {
     border-radius: 10px;
     padding: 5px 10px;
 }
+
+.nav1 ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+}
+
+.nav1 li:first-child {
+    margin-right: auto;
+}
+
+.nav2 ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+}
+
+.nav2 li:last-child {
+    margin-left: auto;
+}
+
+.nav3 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.nav3 li:first-child {
+    margin-right: auto;
+}
+
+.nav3 li:last-child {
+    margin-left: auto;
+} 
