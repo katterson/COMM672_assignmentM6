@@ -30,6 +30,9 @@ h3 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+a {
+    color: #e6a563;
+}
 nav img {
     width: 250px;
 }
@@ -78,14 +81,11 @@ width: 50%;
 .hero img {
     width: 250px;
 }
-.feature-container h2 {
-    display: flex-end;
-    order: -1;
-}
-.feature-container {
-   display: flex;
-   justify-content: space-between;
-    margin: 0 auto;
+.feature-container h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 .feature-block {
     width: 315px;
