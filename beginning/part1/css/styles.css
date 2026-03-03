@@ -31,6 +31,7 @@ nav ul {
     justify-content: flex-end;
     align-items: center;
     gap: 2em;
+    padding: 0;
 }
 
 .nav1 li:first-child {
@@ -42,23 +43,23 @@ nav ul {
     justify-content: flex-start;
     align-items: center;
     gap: 2em;
+    padding: 0;
 }
 
 .nav2 li:last-child {
     margin-left: auto;
 }
 
+.nav3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
 .nav3 ul {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
+    padding: 0;
 }
 
-.nav3 li:first-child {
-    margin-right: auto;
-}
-
-.nav3 li:last-child {
-    margin-left: auto;
-} 
